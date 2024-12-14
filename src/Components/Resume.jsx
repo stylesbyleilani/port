@@ -12,6 +12,7 @@ const Resume = () => {
           <p>Email: mustaphaadeola948@gmail.com</p>
           <p>Phone: 07015910621</p>
           <p>Address: 3kapoa, Alivide, Torikoh, Badagry, Lagos State</p>
+          <div className='flex gap-5 items-center justify-center'>
           <a 
             href="https://github.com/stylesbyleilani" 
             target="_blank" 
@@ -20,6 +21,16 @@ const Resume = () => {
           >
             GitHub Profile
           </a>
+
+          <a 
+            href="https://mustapha-adeola-portfolio.vercel.app/" 
+            target="_blank" 
+            rel="noopener noreferrer" 
+            className="text-emerald-600 hover:underline"
+          >
+            My Potfolio
+          </a>
+          </div>
         </div>
       </header>
 
@@ -101,7 +112,7 @@ const Resume = () => {
         <h2 className="text-2xl font-semibold border-b-2 text-gray-900 border-gray-300 pb-2 mb-4">Technical Skills</h2>
         <div className="text-gray-700">
           <p><strong>Languages:</strong> JavaScript, HTML/CSS</p>
-          <p><strong>Frameworks and Libraries:</strong> React, Node.js, Material-UI, NextJs</p>
+          <p><strong>Frameworks and Libraries:</strong> React,Tailwind css, Node.js, Material-UI, NextJs</p>
           <p><strong>Developer Tools:</strong> Git, VS Code, Postman</p>
           <p><strong>Software:</strong> Proficient in Microsoft Office</p>
         </div>

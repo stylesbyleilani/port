@@ -44,7 +44,7 @@ const Footer = () => {
       <div className="text-center mt-4">
         <hr className="border-emerald-900" />
         <p className="pooter-copyright mt-4">
-          © 2024 leilani. All Rights Reserved.
+          © 2024 mustapah adeola. All Rights Reserved.
         </p> 
       </div>
       

@@ -51,7 +51,7 @@ const Hero = () => {
         </h1>
 
         <p className="text-lg text-gray-50 max-w-3xl mx-auto mb-10 px-4">
-          A seasoned  <span className='text-emerald-500 font-semibold '>Frontend Developer</span> transforming ideas into stunning digital experiences. Skilled in building beautiful and functional user interfaces.
+          A seasoned  <span className='text-emerald-500 font-semibold '>Frontend Developer</span>  with  <span className='text-emerald-500'>2 years +</span> experience transforming ideas into stunning digital experiences. Skilled in  building  high converting, beautiful and functional user interfaces.
         </p>
 
         <div className="flex justify-center gap-6">

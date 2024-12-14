@@ -5,14 +5,7 @@
 
 
 import React from 'react';
-import { 
-  CloudLightning, 
-  ArrowUpRight, 
-  Box, 
-  LineChart, 
-  Wrench,
-  BarChart3
-} from 'lucide-react';
+
 import { IoStar } from "react-icons/io5";
 
 const ServiceCard = ({ icon: Icon, title, description }) => (
@@ -22,18 +15,16 @@ const ServiceCard = ({ icon: Icon, title, description }) => (
     hover:transform hover:-translate-y-1 hover:shadow-xl
     border border-gray-200/10
   `}>
-
-    
-    {/* <h2 className="font-semibold text-lg text-gray-200 mb-2">
+    <p className="text-gray-100 text-sm leading-relaxed">
       {title}
-    </h2>  */}
+    </p>
+    
     
     <p className="text-gray-400 text-sm leading-relaxed">
       {description}
     </p>
 
         <div className="flex justify-between items-center mt-5">
-      <Icon className="w-6 h-6 text-gray-200" />
       <div className='flex gap-1 items-center'>
       <IoStar className="w-5 h-5 text-yellow-400 group-hover:text-yellow-500 transition-colors" />
       <IoStar className="w-5 h-5 text-yellow-400 group-hover:text-yellow-500 transition-colors" />
@@ -50,19 +41,16 @@ const Testimonials = () => {
 
 
     {
-      icon: CloudLightning,
-      title: "Performance Optimization",
-      description: "I optimize the performace of the website by minimizing load times, reducing HTTP requests, and use efficient coding practices.This inclues image optimization,lazy loading,and code splitting to ensure fast and smooth user interactions"
+      title: "Mrs odunuga",
+      description: "Adeola is calm and a good lisener, she lisened and paid attention to details in the design of my supermarket website"
     },
     {
-      icon: BarChart3,
-      title: "Code Quality and Best Practices",
-      description: "I write clean, maintainable code by following best practices,such as adhering to coding standards, commenting code when necessary,and using linters and formaters. This ensure the code is easy to read,understand and maintain"
+      title: "Mr Adetunji",
+      description: "Working with adeola was a fantastic experience. She transformed our outdated website into a modern, user-friendly platform.Higly recomend her for any web dev project "
     },
     {    
-      icon: BarChart3,
-      title: "Collaboration and Communicaion",
-      description: "I actively collaborate with designers, back-end developers, and stakeholders to ensure alignment on project goals.Clear communication helps in understanding requirements,addresing concerns early, and delivering a product that meets or exceeds expectation  "
+      title: "Mr yemen",
+      description: "I can't say enough good things about Adeola. She highlighted the improvents that needs to be made and she was able to take our compplext project requirement and turn them into a seamless, functional website.Her problem-solving abilities is outstanding  "
     },
 
     
@@ -76,9 +64,7 @@ const Testimonials = () => {
           <h1 className="font-semibold text-2xl md:text-3xl text-gray-50 mb-4">
             <span className="block">What clients are saying</span>
           </h1>
-          {/* <p className="text-gray-400 text-sm md:text-base">
-            Simple operations with our efficient quality-focused services
-          </p> */}
+
         </div>
 
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-6">

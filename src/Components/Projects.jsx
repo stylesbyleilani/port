@@ -20,7 +20,7 @@ const ProjectCard = ({ img, caption, description, stack, link }) => {
         <h3 className="text-xl font-semibold text-gray-200">{caption}</h3>
         <p className="text-gray-400">{description}</p>
         <div className="flex justify-between items-center">
-          <span className="text-sm text-gray-400">{stack}</span>
+          <span className="text-sm text-gray-500">{stack}</span>
           <a 
             href={link} 
             target="_blank" 
@@ -38,7 +38,7 @@ const ProjectCard = ({ img, caption, description, stack, link }) => {
 const Projects = () => {
   return (
     <div 
-      className="bg-gray-900 py-16 px-9 sm:px-8 md:px-16 lg:px-24" 
+      className="bg-gray-950 py-16 px-9 sm:px-8 md:px-16 lg:px-24" 
       id="project"
     >
       <div className="text-center mb-12">

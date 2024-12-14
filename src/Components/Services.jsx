@@ -17,10 +17,10 @@ const ServiceCard = ({ icon: Icon, title, description }) => (
     hover:transform hover:-translate-y-1 hover:shadow-xl
     border border-gray-200/10
   `}>
-    <div className="flex justify-between items-center mb-4">
+    {/* <div className="flex justify-between items-center mb-4">
       <Icon className="w-6 h-6 text-gray-200" />
       <ArrowUpRight className="w-5 h-5 text-gray-400 group-hover:text-gray-200 transition-colors" />
-    </div>
+    </div> */}
     
     <h2 className="font-semibold text-lg text-gray-200 mb-2">
       {title}
@@ -34,21 +34,12 @@ const ServiceCard = ({ icon: Icon, title, description }) => (
 
 const Services = () => {
   const services = [
-    // {
-    //   icon: CloudLightning,
-    //   title: " Web development",
-    //   description: "Details on production processes, assembly, capacity and product type"
-    // },
     {
       icon: Wrench,
       title: "Cross-Browser Compatibility",
       description: "I ensure that applicaion function consistently across different browser by testing and applying appropraite css and javascript fixes, adhering to web standards to avoid browser-specific issues"
     },
-    // {
-    //   icon: Box,
-    //   title: "Component-Based Architecture",
-    //   description: "I use component-based frameworks like React to build reuseable, modular components. This approach improves code maintainability,scalability and reduces duplication, making development more efficient."
-    // },
+    
     {
       icon: LineChart,
       title: "Git version control",
@@ -74,11 +65,7 @@ const Services = () => {
       title: "Collaboration and Communicaion",
       description: "I actively collaborate with designers, back-end developers, and stakeholders to ensure alignment on project goals.Clear communication helps in understanding requirements,addresing concerns early, and delivering a product that meets or exceeds expectation  "
     },
-    // {    
-    //   icon: BarChart3,
-    //   title: "User-Centered Design",
-    //   description: "I work with designers to prioritize the user experience by focusing on usability,accessibility, and intuitive navigation, ensuring that the interface is easy to use and meets the need of the target audience.  " 
-    // },  
+
     
   ];
 
@@ -90,9 +77,9 @@ const Services = () => {
           <h1 className="font-semibold text-2xl md:text-3xl text-gray-50 mb-4">
             <span className="block">What i do</span>
           </h1>
-          <p className="text-gray-400 text-sm md:text-base">
+          {/* <p className="text-gray-400 text-sm md:text-base">
             Simple operations with our efficient quality-focused services
-          </p>
+          </p> */}
         </div>
 
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-6">
