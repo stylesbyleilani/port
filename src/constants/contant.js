@@ -6,7 +6,13 @@ import { ShieldHalf } from "lucide-react";
 import { PlugZap } from "lucide-react";
 import { GlobeLock } from "lucide-react";
 import proimg from '../assets/project.jpeg'
+import pho from '../assets/pho.png'
 import ani from '../assets/ani.png'
+import virtual from '../assets/virtual.jpeg'
+import expenso from '../assets/expenso.jpg'
+
+
+
 //  import proimg from '../assets/project.jpeg'
 
 
@@ -71,11 +77,11 @@ export const features = [
 ];
  export const project = [
   {
-    img:ani,
-    caption:"Bilsoco-landing-page",
-    description:" This is a landing page for bilso with appealing animations and smooth responsiveness",
+    img:virtual,
+    caption:"VirtualBox-landing-page",
+    description:" This is a landing page for virtual with appealing animations and smooth responsiveness",
     stack:"React, Tailwind, NodeJs, framer-motion",
-    link:"https://ani-web-leilanis-projects-597afb12.vercel.app/"
+    link:"https://virtualbox.vercel.app/"
 
   },
   {
@@ -87,11 +93,11 @@ export const features = [
 
   },
   {
-    img:school,
-    caption:"Eljousy School-landing page",
-    description:"This is a responsive user-friendly landing-page for eljousy school.Users can register their kids on the admission page and the school management can accept the admission or decline ",
+    img:expenso,
+    caption:"Expenso",
+    description:"This is a mobile app  used for tracking expense and income with analytic screen, transaction screens. it is built with React-Native and firebase for authentication and storage of each user transaction in the database",
     stack:"Nextjs, Tailwind css",
-    link:"https://school-landing-page-nu.vercel.app/?vercelToolbarCode=xxQ6nXnhMQigKuv"
+    link:"https://github.com/stylesbyleilani/expenso"
 
 
   },
@@ -105,12 +111,11 @@ export const features = [
 
   },
   {
-    img:ai,
-    caption:"AI foundary lading-page",
-    description:"This is a responsive user-friendly  landing page for AI foundary ",
+    img:pho,
+    caption:"Banner Generator",
+    description:"This is  customized Social banner for Software Developers & Designers.",
     stack:"Tailwind, React, ",
-    link:"https://landing-page-ai-beta.vercel.app/?vercelToolbarCode=jUgxCnEZ3ovge9a"
-
+    link:"https://beach-town.vercel.app/"
 
   },
   {
@@ -118,7 +123,7 @@ export const features = [
     caption:"Tulop Gadjet e-commerce store",
     description:"This is an attempt to buld a  simple responsive gadjet e-commerce store where users can buy gadjets and make payment   ",
     stack:"React,firebase",
-    link:"https://tulop-e-commerce-g1ks.vercel.app/product/3"
+    link:"https://tulop-e-commerce-f94i.vercel.app/"
 
 
   },

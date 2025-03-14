@@ -36,7 +36,7 @@ const Services = () => {
   const services = [
     {
       icon: Wrench,
-      title: "Cross-Browser Compatibility",
+      title: "Web Development",
       description: "I ensure that applicaion function consistently across different browser by testing and applying appropraite css and javascript fixes, adhering to web standards to avoid browser-specific issues"
     },
     
@@ -57,7 +57,7 @@ const Services = () => {
     },
     {
       icon: BarChart3,
-      title: "Code Quality and Best Practices",
+      title: "Mobile, App Development",
       description: "I write clean, maintainable code by following best practices,such as adhering to coding standards, commenting code when necessary,and using linters and formaters. This ensure the code is easy to read,understand and maintain"
     },
     {    

@@ -39,6 +39,10 @@ const About = () => {
             <p className="text-gray-300">React</p>
           </div>
           <div className="js  rounded-sm text-l border-[1px] border-gray-300 size-max p-1 font-bold justify-center gap-2 flex items-center "  >
+             <GrReactjs className="text-blue-300 bg-black border-none text-2xl"/>
+            <p className="text-gray-300">React Native</p>
+          </div>
+          <div className="js  rounded-sm text-l border-[1px] border-gray-300 size-max p-1 font-bold justify-center gap-2 flex items-center "  >
              <RiNextjsFill className="text-gray-300 bg-black border-none text-2xl"/>
             <p className="text-gray-300">Next.js</p>
           </div>
