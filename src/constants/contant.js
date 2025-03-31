@@ -22,6 +22,8 @@ import mast from '../assets/mast.png'
 import gad from '../assets/gad.png'
 import chat from '../assets/chat.png'
 import ai from '../assets/ai.png'
+import crypto from '../assets/img.png'
+
 
 
 
@@ -96,7 +98,7 @@ export const features = [
     img:expenso,
     caption:"Expenso",
     description:"This is a mobile app  used for tracking expense and income with analytic screen, transaction screens. it is built with React-Native and firebase for authentication and storage of each user transaction in the database",
-    stack:"Nextjs, Tailwind css",
+    stack:"React-Native, firebase ",
     link:"https://github.com/stylesbyleilani/expenso"
 
 
@@ -110,11 +112,20 @@ export const features = [
 
 
   },
+  // {
+  //   img:pho,
+  //   caption:"Banner Generator",
+  //   description:"This is  customized Social banner for Software Developers & Designers.",
+  //   stack:"Tailwind, React, ",
+  //   link:"https://beach-town.vercel.app/"
+
+  // },
   {
-    img:pho,
-    caption:"Banner Generator",
-    description:"This is  customized Social banner for Software Developers & Designers.",
-    stack:"Tailwind, React, ",
+    img:crypto,
+    caption:"Crypto Tracker",
+    // caption:"Banner Generator",
+    description:"This is crypto tracker app and its still in progress.",
+    stack:"React-Native, CoinMarket Api, ",
     link:"https://beach-town.vercel.app/"
 
   },
