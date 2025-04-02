@@ -126,7 +126,7 @@ export const features = [
     // caption:"Banner Generator",
     description:"This is crypto tracker app and its still in progress.",
     stack:"React-Native, CoinMarket Api, ",
-    link:"https://beach-town.vercel.app/"
+    link:"https://github.com/stylesbyleilani/Crypto-Tracker/"
 
   },
   {
